@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediConnect-your online health partner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo" style="cursor: pointer;"><i class="fa-solid fa-stethoscope"></i>MediConnect</div>
+
+            <ul class="navEle">
+                <li><a href="#HERO">Home</a></li>
+                <li><a href="#TEXT">Appointment</a></li>
+                <li><a href="#DOC">Doctors</a></li>
+                <li><a href="#ABOUT">About</a></li>
+                <li><a href="#TOUCH">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="HERO">
+            <h1>Book Your Doctor Appointment</h1>
+            <h4>Connect with top doctors and healthcare experts instantly</h4>
+            <button type="button">Book Now</button>
+        </section>
+        <div class="text" id="TEXT">Book Your Appointment</div>
+        <section class="form">
+            <form class="formbody">
+                <div class="form1">
+                    <div class="formele1">
+                        <label for="catagory"><i class="fa-solid fa-capsules"></i>Catagory</label><br>
+                        <select name="catagory" id="catagory" class="catagory">
+                            <option>Select Category</option>
+                            <option>Cardiology</option>
+                            <option>Neurology</option>
+                            <option>Orthopedics</option>
+                            <option>Dermatology</option>
+                        </select>
+                    </div>
+                    <div class="date">
+                        <label for="date"><i class="fa-solid fa-calendar"></i>Date</label>
+                        <input type="date" class="dateinp" required>
+                    </div>
+                    <div class="time">
+                        <label for="time"><i class="fa-solid fa-clock"></i>Time</label>
+                        <input type="time" class="timeinp">
+                    </div>
+                </div>
+                <div class="form2">
+                    <div class="formele21">
+                        <label for="patients"><i class="fa-solid fa-people-line"></i>Patients</label><br>
+                        <select name="patients" id="patients" class="patients">
+                            <option>Number of patients</option>
+                            <option>1 patient</option>
+                            <option>2 patients</option>
+                            <option>3 patients</option>
+                            <option>4 Patients</option>
+                            <option>5+ patients</option>
+                        </select>
+                    </div>
+                    <div class="consult">
+                        <label for="consult"><i class="fa-solid fa-heart-pulse"></i>Consult Type</label><br>
+                        <select name="consult" id="consult" class="consultss">
+                            <option>Consult Type</option>
+                            <option>General Consultation</option>
+                            <option>Specialist Consultation</option>
+                            <option>Follow-up Visit</option>
+                        </select>
+                    </div>
+                    <div class="visit">
+                        <label for="visit"><i class="fa-solid fa-truck-medical"></i>Visit Mode</label><br>
+                        <select name="visit" id="visit" class="visitss">
+                            <option>Visit Mode</option>
+                            <option>In-Clinic Visit</option>
+                            <option>Online Consultation</option>
+                            <option>Home Visit</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form3">
+                    <div class="require">
+                        <label for="require"><i class="fa-solid fa-message"></i>Special Requests</label><br>
+                        <input type="text" placeholder="Any special requirements or requests..." class="requiress">
+                    </div>
+                </div>
+                <div class="heading">Personal Information</div>
+                <div class="form4">
+                    <div class="fname">
+                        <label for="fname"><i class="fa-solid fa-person"></i>First Name</label>
+                        <input type="text" class="fnamess" required>
+                    </div>
+                    <div class="lname">
+                        <label for="lname"><i class="fa-solid fa-person"></i>Last Name</label>
+                        <input type="text" class="lnamess">
+                    </div>
+                </div>
+                <div class="form5">
+                    <div class="email">
+                        <label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+                        <input type="email" class="emailss" required>
+                    </div>
+                    <div class="phone">
+                        <label for="phone"><i class="fa-solid fa-phone"></i>Phone</label>
+                        <input type="tel" class="phoness" required>
+                    </div>
+                </div>
+                <div class="form6">
+                    <div class="button">
+                        <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i>Submit Booking</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="main2">
+            <div class="text2" id="DOC">Our Specialist</div>
+            <div class="cardbody">
+                <div class="cardr1">
+                    <div class="card1">
+                        <div class="imgBox">
+                            <img src="assets/images/Doc1.png" alt="doctor">
+                        </div>
+                        <div class="innerCard1">
+                            <!-- <h2>Dr. Michael Carter</h2> -->
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgBox">
+                            <img src="assets/images/Doc2.png" alt="doctor">
+                        </div>
+                        <div class="innerCard1">
+                            <!-- <h2>Cardiology</h2> -->
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgBox">
+                            <img src="assets/images/Doc1.png" alt="doctor">
+                        </div>
+                        <div class="innerCard1">
+                            <!-- <h2>Cardiology</h2> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="cardr1 c2">
+                    <div class="card1">
+                        <div class="imgBox">
+                            <img src="assets/images/doc3.png" alt="doctor">
+                        </div>
+                        <div class="innerCard1">
+                            <!-- <h2>Dr. Michael Carter</h2> -->
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgBox">
+                            <img src="assets/images/Doc4.png" alt="doctor">
+                        </div>
+                        <div class="innerCard1">
+                            <!-- <h2>Cardiology</h2> -->
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgBox">
+                            <img src="assets/images/doc3.png" alt="doctor">
+                        </div>
+                        <div class="innerCard1">
+                            <!-- <h2>Cardiology</h2> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="cardr2"></div>
+            </div>
+        </section>
+        <section class="main3">
+            <div class="text2">Health Plans</div>
+            <div class="planBody">
+                <div class="body1">
+                    <h3>Basic</h3>
+                    <span class="All">$ <span class="amount">39</span>/month</span>
+                    <p><i class="fa-solid fa-check"></i>OPD Consultation</p>
+                    <p><i class="fa-solid fa-check"></i>Emergency Support</p>
+                    <p><i class="fa-solid fa-check"></i>Basic Diagnostics</p>
+                    <p><i class="fa-solid fa-check"></i>24/7 Helpline</p>
+                    <button class="btns">Select Plan</button>
+                </div>
+                <div class="body2 body1">
+                    <h3>Advance</h3>
+                    <span class="All">$ <span class="amount">99</span>/month</span>
+                    <p><i class="fa-solid fa-check"></i>Specialist Consultation</p>
+                    <p><i class="fa-solid fa-check"></i>Hospitalization Coverage</p>
+                    <p><i class="fa-solid fa-check"></i>Lab Tests & Reports</p>
+                    <p><i class="fa-solid fa-check"></i>Priority Appointments</p>
+                    <button class="btns">Select Plan</button>
+                </div>
+                <div class="body3 body1">
+                    <h3>Elite</h3>
+                    <span class="All">$ <span class="amount">149</span>/month</span>
+                    <p><i class="fa-solid fa-check"></i>Full Medical Coverage</p>
+                    <p><i class="fa-solid fa-check"></i>Home Doctor Visits</p>
+                    <p><i class="fa-solid fa-check"></i>Annual Health Checkups</p>
+                    <p><i class="fa-solid fa-check"></i>Personal Care Manager</p>
+                    <button class="btns" style="margin-left: 80px;">Select Plan</button>
+                </div>
+            </div>
+        </section>
+        <section class="main4">
+            <div class="text2" id="ABOUT">About MediConnect</div>
+            <p class="p1 para">We are a trusted digital healthcare platform committed to making quality medical care
+                accessible and hassle-free. With experienced doctors across multiple specialties, MediConnect connects
+                patients with the right healthcare professionals at the right time.</p>
+            <br>
+            <p class="p2 para">Our mission is to simplify healthcare by offering seamless appointment booking,
+                personalized consultations, and reliable medical support. We focus on patient care, transparency, and
+                excellence—because your health deserves nothing less.</p>
+
+            <div class="cards">
+                <div class="cardone">
+                    <h3>50K+</h3>
+                    <p>Satisfied Patients</p>
+                </div>
+                <div class="cardone">
+                    <h3>100+</h3>
+                    <p>Expert Doctors</p>
+                </div>
+                <div class="cardone">
+                    <h3>15+</h3>
+                    <p>Years in Healthcare</p>
+                </div>
+            </div>
+        </section>
+        <section class="main5" id="TOUCH">
+            <div class="text2">Get In Touch</div>
+            <div class="touchBody">
+                <div class="touchdetails">
+                    <div class="tadd">
+                        <div class="ticon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="tdetfill">
+                            <h4>Address</h4>
+                            <p>123 Travel Street, Adventure City, AC 12345</p>
+                        </div>
+                    </div>
+                    <div class="tadd">
+                        <div class="ticon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="tdetfill">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="tadd">
+                        <div class="ticon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="tdetfill">
+                            <h4>Email</h4>
+                            <p>contact@mediconnect.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="touchinput form22">
+                    <input type="text" placeholder="Your Name" class="inpName" required>
+                    <input type="email" placeholder="Your Email" class="inpEmail"required>
+                    <input type="text" placeholder="Your Message" class="inpMessage">
+                    <button type="submit" class="touchbtn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <section class="main6">
+            <div class="lastbody">
+                <div class="last1">
+                    <div class="last1ele">
+                        <i class="fa-solid fa-stethoscope"></i>
+                        <span>MediConnect </span>
+                    </div>
+                    <p>Your trusted partner for exceptional healthcare.</p>
+                </div>
+                <div class="last2">
+                    <h4>Quick links</h4>
+                    <div class="links">
+                        <a href="#HERO">Home</a>
+                        <a href="#TEXT">Appointment</a>
+                        <a href="#DOC">Doctor</a>
+                        <a href="#ABOUT">About</a>
+                    </div>
+                </div>
+                <div class="last3">
+                    <h4>Services</h4>
+                    <div class="descc">
+                        <p>Online Doctor Consultation</p>
+                        <p>Appointment Booking</p>
+                        <p>Medical Tests & Reports</p>
+                        <p>Health Insurance Assistance</p>
+                    </div>
+                </div>
+                <div class="last4">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get special offers and health tips.</p>
+                    <input type="text" placeholder="Your Email" class="Subscribe" required>
+                    <button class="subs">Subscribe</button>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="lastline">© 2026 MediConnect. All rights reserved.</div>
+        </section>
+    </main>
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span>Your booking is accepted</span>
+    </div>
+    <div class="toast2 toast" id="toast2">
+        <i class="fa-solid fa-circle-check"></i>
+        <span>Plan Selected</span>
+    </div>
+    <div class="toast3 toast" id="toast3">
+        <i class="fa-solid fa-circle-check"></i>
+        <span>Message Sent</span>
+    </div>
+    <div class="toast4 toast" id="toast4">
+        <i class="fa-solid fa-circle-check"></i>
+        <span>Email Saved</span>
+    </div>
+    <div class="advance">
+        <span class="badge">Popular</span>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
