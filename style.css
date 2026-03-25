@@ -625,6 +625,7 @@ select:focus {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    transition: all 1s ease;
 }
 
 .card1 {
@@ -634,6 +635,12 @@ select:focus {
     border-radius: 20px;
     overflow: hidden;
     background-color: #0f172a;
+    transition: all 1s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .imgBox {
@@ -952,7 +959,7 @@ select:focus {
     transition: all 0.3s ease;
 }
 
-.touchbtn:hover{
+.touchbtn:hover {
     transform: translateY(-2px);
 }
 
@@ -1090,11 +1097,12 @@ select:focus {
     transition: all 0.3s ease;
 }
 
-.last4 button:hover{
-    transform: translateY(-2px); /* jump effect */
+.last4 button:hover {
+    transform: translateY(-2px);
+    /* jump effect */
 }
 
-.line{
+.line {
     height: 1px;
     background-color: #94a3b8;
     width: 75%;
@@ -1102,7 +1110,7 @@ select:focus {
     margin: auto;
 }
 
-.lastline{
+.lastline {
     color: #94a3b8;
     text-align: center;
     margin-top: 20px;

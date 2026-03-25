@@ -1,4 +1,5 @@
 const toast = document.querySelector(".toast");
+const toastFailed = document.querySelector(".toast5")
 const form = document.querySelector(".formbody")
 const toast2 = document.querySelector(".toast2")
 const playbtns = document.querySelectorAll(".btns") 
@@ -10,9 +11,29 @@ const subInput = document.querySelector(".Subscribe")
 const toast4 = document.querySelector(".toast4")
 const logo = document.querySelector(".logo")
 
+const heroBtn = document.querySelector(".heroBtn")
+heroBtn.addEventListener("click" , ()=>{
+    document.querySelector("#TEXT").scrollIntoView({behavior:"smooth"})
+})
+
 form.addEventListener("submit" , (e)=>{
 
     e.preventDefault()
+
+    const name = document.querySelector(".fnamess")
+    const email = document.querySelector(".emailss")
+    const phone = document.querySelector(".phoness")
+
+    console.log(name , email)
+
+    if (name.value.trim() === "" || email.value.trim() === "" || phone.value.trim() === ""){
+        toastFailed.classList.add("show")
+
+        setTimeout(()=>{
+            toastFailed.classList.remove("show")
+        },3000)
+        return;
+    }
 
     toast.classList.add("show");
 

@@ -39,18 +39,34 @@ This project focuses on **UI design, frontend logic, and user experience** using
 # ✨ Features
 
 ### 🧑‍⚕️ Online Doctor Appointment
+
 Users can easily book appointments with doctors through a simple and user-friendly interface.
 
 ### 🏥 Health Plans
+
 Different healthcare plans are available to help users choose the best option for their needs.
 
 ### ❓ Health Queries
+
 Users can submit health-related questions or requests directly through the platform.
 
 ### 📩 Newsletter Registration
+
 A registration form allows users to subscribe for **health updates and email support**.
 
+### ✅ Form Validation & Feedback (NEW)
+
+- Input validation for required fields  
+- Real-time error handling using toast notifications  
+- Prevents empty or invalid submissions  
+
+### 🎯 Interactive UI Enhancements (NEW)
+
+- Smooth hover effects on cards and UI elements  
+- Improved user interaction and feedback  
+
 ### 🎨 Clean & Modern UI
+
 Minimal and structured layout designed to provide **smooth user experience**.
 
 ---
