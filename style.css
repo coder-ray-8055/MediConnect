@@ -628,6 +628,12 @@ select:focus {
     transition: all 1s ease;
 }
 
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
 .card1 {
     height: 400px;
     width: 400px;
@@ -654,25 +660,44 @@ select:focus {
     height: 100%;
     object-fit: cover;
     object-position: center top;
+    transition: transform 0.4s ease;
 }
 
 .innerCard1 {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
     padding: 20px;
     z-index: 2;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0));
+
+    color: white;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+
     /* background-color: black; */
 }
 
+.card:hover .innerCard1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
 .innerCard1 h2 {
-    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(2, 6, 23, 0.9) 100%);
-    color: #f59e0b;
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-    font-weight: bolder;
-    border-radius: 10px;
-    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.innerCard1 p {
+    font-size: 14px;
+    color: #ddd;
 }
 
 .c2 {
