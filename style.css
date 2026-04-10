@@ -848,6 +848,11 @@ select:focus {
     border-radius: 20px;
     flex-direction: column;
     /* gap: 40px; */
+    transition: all 0.6s ease;
+}
+
+.cardone:hover{
+    transform: translateY(-5px);
 }
 
 .cardone h3 {
@@ -1140,3 +1145,4 @@ select:focus {
     text-align: center;
     margin-top: 20px;
 }
+
